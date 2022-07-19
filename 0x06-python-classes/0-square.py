@@ -5,7 +5,7 @@ Define a square class
 
 """
 
-class square:
+class Square:
     """
     Attribute: None, represents a square
 
