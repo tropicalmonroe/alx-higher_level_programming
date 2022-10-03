@@ -6,6 +6,6 @@ if (process.argv[2] === undefined || isNaN(process.argv[2])) {
   let y = 0;
   while (y < x) {
     console.log('X'.repeat(x));
-    i++;
+    y++;
   }
 }
