@@ -1,10 +1,9 @@
 #!/usr/bin/node
-/*
-  defining a Rectangle class with the attributes
-  width and height
-  If w or h is equal to 0 or not a positive integer
-  it create an empty object
-*/
+/**
+ * defining a Rectangle class with the attributes
+ * width and hieght If w or h is equal to 0 or
+ * not a positive integer, it create an empty object
+ */
 
 class Rectangle {
   constructor (w, h) {
@@ -20,7 +19,7 @@ class Rectangle {
     }
   }
 
- rotate () {
+  rotate () {
     const h = this.height;
     this.height = this.width;
     this.width = h;
