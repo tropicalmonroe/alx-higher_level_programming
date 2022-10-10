@@ -18,7 +18,6 @@ if __name__ == '__main__':
         states = states.filter(State.name.like('%a%')).order_by(State.id)
         for state in states:
             print("{}: {}".format(state.id,state.name))
-
     except Exception:
         print("Nothing")
 
