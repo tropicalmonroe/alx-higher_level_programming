@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" lists all State objects that contain the letter a from the database """
+""" This script lists all State objects  that contain the letter a
+from database hbtn_0e_6_usa """
 if __name__ == '__main__':
     from sqlalchemy import create_engine
     from sys import argv
@@ -17,7 +18,7 @@ if __name__ == '__main__':
         states = session.query(State)
         states = states.filter(State.name.like('%a%')).order_by(State.id)
         for state in states:
-            print("{}: {}".format(state.id,state.name))
+            print("{}: {}".format(state.id, state.name))
     except Exception:
         print("Nothing")
 
