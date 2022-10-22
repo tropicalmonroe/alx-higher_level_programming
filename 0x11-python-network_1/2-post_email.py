@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" a Python script that takes in a URL and an email, sends a POST request"""
+""" a Python script that takes in a URL and an email, sends a POST request """
 
 if __name__ == "__main__":
     import sys
